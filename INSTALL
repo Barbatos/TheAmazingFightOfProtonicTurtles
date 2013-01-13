@@ -1,0 +1,29 @@
+==========
+1) Linux
+==========
+
+Pour compiler le jeu, installez tout d'abord les librairies nécessaires :
+> sudo apt-get install build-essential libsdl1.2-dev libsdl-image1.2 libsdl-image1.2-dev libsdl-ttf2.0-0 libsdl-ttf2.0-dev
+
+Ensuite, placez-vous dans le répertoire src/ et tapez dans votre terminal la commande :
+> sh build_linux.sh
+
+Déplacez-vous dans le dossier build/ et tapez dans votre terminal :
+> sudo chmod +x CourseDesTortues.x86
+
+..afin de rendre le programme exécutable.
+
+Enfin, lancez le jeu :
+> ./CourseDesTortues.x86
+
+
+===========
+2) Windows
+===========
+Pour compiler le jeu, placez-vous dans le répertoire src/ et tapez, dans une console mingw, la commande :
+> sh build.sh
+
+Ensuite, allez dans le dossier build/ et l'exécutable a été créé.
+
+Pour lancer le jeu, il suffit de cliquer sur l'exécutable CourseDesTortues.exe
+Les librairies SDL sont incluses avec l'exécutable.
