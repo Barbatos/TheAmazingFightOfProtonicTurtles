@@ -1,5 +1,5 @@
 #!/bin/sh
-#@Charles: compilation sous linux.. ihhhi
+#@Charles: compilation sous linux
 
 gcc -o CourseDesTortues.x86 main.c jeu.c menu.c utils.c -lSDLmain -lSDL -lSDL_image -lSDL_ttf `sdl-config --cflags --libs`
 
